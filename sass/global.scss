@@ -1,5 +1,12 @@
 .wrapper {
-  width: 900px;
+  width: 1170px;
+  margin: 0 auto;
+  padding: 0 30px;
+
+}
+
+.wrapper-big {
+  width: 1743px;
   margin: 0 auto;
 }
 
@@ -10,4 +17,8 @@ a {
 
 ul {
   list-style: none;
+}
+
+body {
+  font-family: $sfui;
 }
