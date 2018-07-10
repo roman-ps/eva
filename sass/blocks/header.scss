@@ -41,7 +41,18 @@
 }
 
 .header__right-mailto {
+  position: relative;
+  padding: 0 0 0 55px;
   color: #979797;
+  
+  &::before {
+    @include pseudo;
+    width: 39px;
+    height: 28px;
+    background: url(../../img/header-mail.png) #ffffff;
+    left: 0;
+    top: 0;
+  }
 }
 
 .header__social {
