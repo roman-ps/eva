@@ -61,6 +61,7 @@
   position: relative;
   padding: 0 0 0 55px;
   color: #979797;
+  opacity: 0.6;
   
   &::before {
     @include pseudo;
@@ -69,6 +70,10 @@
     background: url(../../img/header-mail.png) #ffffff;
     left: 0;
     top: 0;
+  }
+  
+  &:hover {
+    opacity: 1;
   }
 }
 

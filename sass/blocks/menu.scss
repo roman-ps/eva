@@ -14,4 +14,8 @@
 .menu__link {
   font-size: 25px;
   color: #858585;
+  
+  &:hover {
+    opacity: 0.5;
+  }
 }

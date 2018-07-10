@@ -14,4 +14,8 @@
 
 .social__link {
   display: inline-block;
+  
+  &:hover {
+    opacity: 0.6;
+  }
 }
